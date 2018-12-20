@@ -1,12 +1,15 @@
 body{
 	opacity: 0;
 }
-
+.bloc-page{
+	width: 90%;
+	margin:auto;
+	text-align: center;
+}
 img[usemap] {
 
     border: none;
     height: auto;
     max-width: 100%;
     width: auto;
-
 }

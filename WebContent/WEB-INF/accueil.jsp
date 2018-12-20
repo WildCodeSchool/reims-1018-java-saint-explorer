@@ -17,7 +17,7 @@
 		<h2>Inventaire:</h2>
 	</div>
 	<script src="https://code.jquery.com/jquery-1.10.2.js" integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="<%= request.getContextPath()%>/JS/home.js"></script>
+	<script type="text/javascript" src="<%= request.getContextPath()%>/JS/responsive.js"></script>
 	<script>
               $(document).ready(function(e) {
                     $('img[usemap]').rwdImageMaps();
