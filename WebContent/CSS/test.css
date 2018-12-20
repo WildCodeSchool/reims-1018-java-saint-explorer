@@ -1,5 +1,6 @@
 body{
 	opacity: 0;
+	background-color: #fc9e3a;
 }
 
 .bloc-page{
@@ -9,13 +10,14 @@ body{
 }
 
 @font-face {
-font-family: "Cobol";
-src: url(The Northern Block - Cobol.otf);
-} 
+  font-family: 'Cobol';
+  font-style: normal;
+  src: url(Cobol.otf);
+}
 
 header {
   	background-color: #005F82;
-  	height: 15vh;
+  	height: 10vh;
   	background-position: center;
   	background-repeat: no-repeat;
   	display: flex;
@@ -25,9 +27,16 @@ header {
 
 h1 {
 	font-size: 45px;
-	font-family: "Cobol";
+	font-family: 'Cobol';
 	color: white;
 	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: "Cobol";
+	color: white;
+	text-align: left;
 	
 }
 
@@ -40,7 +49,7 @@ img[usemap] {
 }
 
 footer {
-  	background-color: #fc9e3a;
+  	background-color: #005F82;
   	height:10vh;
   	background-position: center;
   	background-repeat: no-repeat;
