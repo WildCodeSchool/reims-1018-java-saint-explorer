@@ -1,3 +1,12 @@
+body{
+	opacity: 0;
+}
+.bloc-page{
+	width: 90%;
+	margin:auto;
+	text-align: center;
+}
+
 @font-face {
 font-family: "Cobol";
 src: url(The Northern Block - Cobol.otf);
@@ -13,7 +22,6 @@ header {
     justify-content: center;
 }
 
-
 h1 {
 	font-size: 45px;
 	font-family: "Cobol";
@@ -28,7 +36,6 @@ img[usemap] {
     height: auto;
     max-width: 100%;
     width: auto;
-
 }
 
 footer {
