@@ -11,7 +11,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import bean.Area;
+import bean.AreaList;
 import bean.Room;
+import model.Roomlist;
 
 /**
  * Servlet implementation class Home
@@ -26,18 +28,32 @@ public class Home extends HttpServlet {
     public Home() {
         super();
         // TODO Auto-generated constructor stub
+        
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		Area area = new Area("rect", "457,377,536,453", "/accueil");
-		List<Area> areas = new ArrayList<Area>();
-		areas.add(area);
-		Room room = new Room(1, "home");
-		request.setAttribute("areas", areas);
+		
+		var rooms = new Roomlist();
+		var areas = new AreaList();
+		String param = (String)request.getParameter("id");
+		Room room;
+		Area area;
+		
+		if(param == null) {
+			room = rooms.getRoom(0);
+			area = areas.getArea(0);
+			
+		} else {
+			room = rooms.getRoom(Integer.valueOf(param));
+			area = areas.getArea(Integer.valueOf(param));
+		}
+		
+		request.setAttribute("area", area);
 		request.setAttribute("room", room);
+		
 	
 		this.getServletContext().getRequestDispatcher("/WEB-INF/home.jsp").forward(request, response);
 

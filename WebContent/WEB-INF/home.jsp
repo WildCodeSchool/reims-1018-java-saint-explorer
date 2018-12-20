@@ -18,9 +18,8 @@
 		<img alt="" src="<%= request.getContextPath()%>/IMG/${room.url}.png" usemap="#panneaux">
 		<map name="panneaux" id="panneaux">
 			
-			<c:forEach items="${areas}" var="area">
-				<area shape="${area.shape}" coords="${area.coords}" href="<%= request.getContextPath() %>${area.href}" alt="Contact"/>
-			</c:forEach>
+				<area shape="${area.shape}" coords="${area.coords}" href="<%= request.getContextPath() %>/?id=${area.href}" alt="Contact"/>
+			
 		</map>
 		<div>
 			<h2>Inventaire:</h2>
