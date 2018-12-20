@@ -15,6 +15,9 @@
 <body>
 	<div class="bloc-page">
 		<h1>Saint-Explorer</h1>
+		<c:forEach items="${room.fleches}" var="fleche">
+			<img alt="" src="<%=request.getContextPath()%>/IMG/${fleche.url)">	
+		</c:forEach>
 		<img alt="" src="<%= request.getContextPath()%>/IMG/${room.url}.png" usemap="#panneaux">
 		<map name="panneaux" id="panneaux">
 			

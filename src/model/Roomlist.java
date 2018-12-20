@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import bean.Area;
+import bean.Fleche;
 import bean.Room;
 
 public class Roomlist {
@@ -23,6 +24,16 @@ public class Roomlist {
 		areas2.add(area3);
 		areas2.add(area4);
 		
+		ArrayList<Fleche> fleches2 = new ArrayList<Fleche>();
+		Fleche fleche1 = new Fleche("50px", "50px", "flechenord");
+		Fleche fleche2 = new Fleche("100px", "100px", "flechenord");
+		Fleche fleche3 = new Fleche("150px", "150px", "flechenord");
+		Fleche fleche4 = new Fleche("200px", "200px", "flechenord");
+		fleches2.add(fleche1);
+		fleches2.add(fleche1);
+		fleches2.add(fleche1);
+		fleches2.add(fleche1);
+		
 		ArrayList<Area> areas3 = new ArrayList<Area>();
 		Area area5 = new Area("poly", "0, 329, 173, 305, 202, 394, 12, 458, 1, 425", "5");
 		Area area6 = new Area("poly", "169, 274, 166, 301, 177, 302, 207, 389, 285, 373, 289, 307, 271, 284", "6");
@@ -41,6 +52,10 @@ public class Roomlist {
 		areas3.add(area11);
 		areas3.add(area12);
 		
+		ArrayList<Fleche> fleches3 = new ArrayList<Fleche>();
+		Fleche fleche5 = new Fleche("50px", "50px", "flechenord");
+		fleches3.add(fleche5);
+		
 		ArrayList<Area> areas4 = new ArrayList<Area>();
 		Area area13 = new Area("poly", "109, 255, 190, 260, 194, 325, 115, 331", "13");
 		Area area14 = new Area("poly", "274, 160, 284, 319, 323, 314, 317, 174", "14");
@@ -48,6 +63,12 @@ public class Roomlist {
 		areas4.add(area13);
 		areas4.add(area14);
 		areas4.add(area15);
+		
+		ArrayList<Fleche> fleches4 = new ArrayList<Fleche>();
+		Fleche fleche6 = new Fleche("50px", "50px", "flechenord");
+		Fleche fleche7 = new Fleche("100px", "100px", "flechenord");
+		fleches4.add(fleche6);
+		fleches4.add(fleche7);
 		
 		ArrayList<Area> areas5 = new ArrayList<Area>();
 		Area area16 = new Area("poly", "439, 176, 441, 209, 427, 217, 433, 224, 467, 226, 468, 213, 463, 213, 460, 177", "16");
@@ -59,12 +80,16 @@ public class Roomlist {
 		areas5.add(area18);
 		areas5.add(area19);
 		
+		ArrayList<Fleche> fleches5 = new ArrayList<Fleche>();
+		Fleche fleche8 = new Fleche("50px", "50px", "flechenord");
+		fleches5.add(fleche8);
+		
 		rooms = new ArrayList<Room>();
-		Room room1 = new Room(0, "/home", areas1);
-		Room room2 = new Room(1, "/accueil2", areas2);
-		Room room3 = new Room(2, "/artfab", areas3);
-		Room room4 = new Room(3, "/hall2", areas4);
-		Room room5 = new Room(4, "/labomachine", areas5);
+		Room room1 = new Room(0, "/home", areas1, null );
+		Room room2 = new Room(1, "/accueil2", areas2, fleches2);
+		Room room3 = new Room(2, "/artfab", areas3, fleches3);
+		Room room4 = new Room(3, "/hall2", areas4, fleches4);
+		Room room5 = new Room(4, "/labomachine", areas5, fleches5);
 		
 		rooms.add(room1);
 		rooms.add(room2);
