@@ -8,20 +8,27 @@
  <link rel="stylesheet" href="<%=request.getContextPath()%>/CSS/test.css">
 </head>
 <body>
-	<h1>Saint-Explorer</h1>
+	<header>
+	<h1>SAINT-EXplorer</h1>
+	</header>
+	
 	<img alt="" src="https://via.placeholder.com/1500x1000?text=HOME" usemap="#panneaux">
 	<map name="panneaux" id="panneaux">
    		<area shape="rect" coords="500,400,1000,600" href="<%= request.getContextPath()%>/accueil" alt="Contact"/>
 	</map>
-	<div>
-		<h2>Inventaire:</h2>
-	</div>
+	
+<footer>
+
+<h2>Inventaire:</h2>
+
+</footer>  
+
 	<script src="https://code.jquery.com/jquery-1.10.2.js" integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="<%= request.getContextPath()%>/JS/home.js"></script>
 	<script>
               $(document).ready(function(e) {
                     $('img[usemap]').rwdImageMaps();
               });
-        </script>
+        </script>      
 </body>
 </html>
