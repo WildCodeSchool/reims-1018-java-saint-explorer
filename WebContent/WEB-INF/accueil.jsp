@@ -23,5 +23,7 @@
                     $('img[usemap]').rwdImageMaps();
               });
         </script>
+    <script type="text/javascript" src="<%= request.getContextPath()%>/JS/transition.js""></script>
+    
 </body>
 </html>

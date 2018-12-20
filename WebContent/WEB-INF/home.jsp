@@ -9,9 +9,9 @@
 </head>
 <body>
 	<h1>Saint-Explorer</h1>
-	<img alt="" src="https://via.placeholder.com/1500x1000?text=HOME" usemap="#panneaux">
+	<img alt="" src="<%= request.getContextPath()%>/IMG/home.png" usemap="#panneaux">
 	<map name="panneaux" id="panneaux">
-   		<area shape="rect" coords="500,400,1000,600" href="<%= request.getContextPath()%>/accueil" alt="Contact"/>
+   		<area shape="rect" coords="457,377,536,453" href="<%= request.getContextPath()%>/accueil" alt="Contact"/>
 	</map>
 	<div>
 		<h2>Inventaire:</h2>
@@ -23,5 +23,6 @@
                     $('img[usemap]').rwdImageMaps();
               });
         </script>
+    <script type="text/javascript" src="<%= request.getContextPath()%>/JS/transition.js""></script>
 </body>
 </html>
