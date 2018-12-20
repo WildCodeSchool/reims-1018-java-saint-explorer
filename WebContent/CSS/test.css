@@ -1,6 +1,7 @@
 body{
 	opacity: 0;
 }
+
 .bloc-page{
 	width: 90%;
 	margin:auto;
@@ -14,7 +15,7 @@ src: url(The Northern Block - Cobol.otf);
 
 header {
   	background-color: #005F82;
-  	height: 25vh;
+  	height: 15vh;
   	background-position: center;
   	background-repeat: no-repeat;
   	display: flex;
@@ -40,7 +41,7 @@ img[usemap] {
 
 footer {
   	background-color: #fc9e3a;
-  	height:20vh;
+  	height:10vh;
   	background-position: center;
   	background-repeat: no-repeat;
   	display: flex;

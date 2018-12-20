@@ -26,9 +26,6 @@
 				<area shape="${area.shape}" coords="${area.coords}" href="<%= request.getContextPath() %>${area.href}" alt="Contact"/>
 			</c:forEach>
 		</map>
-		<div>
-			<h2>Inventaire:</h2>
-		</div>
 	</div>
   
 <footer>
