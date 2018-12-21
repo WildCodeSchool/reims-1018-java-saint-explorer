@@ -99,6 +99,7 @@
     		</div>
   		</div>
 	</div>
+</div>
 	
 	<footer>
 	<h2>Inventaire:</h2>

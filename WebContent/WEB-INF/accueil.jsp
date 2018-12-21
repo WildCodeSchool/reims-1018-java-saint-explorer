@@ -9,8 +9,10 @@
  <link rel="stylesheet" href="<%=request.getContextPath()%>/CSS/test.css">
 </head>
 <body>
+	<header>
+		<h1>Saint-Explorer</h1>
+	</header>
 	<div class="bloc-page">
-	<h1>Saint-Explorer</h1>
 	<img alt="" src="<%= request.getContextPath()%>/IMG/accueil2.png" usemap="#panneaux">
 	<map name="panneaux" id="panneaux">
    		<area shape="poly" coords="676, 390, 560, 413, 487, 381, 489, 322, 505, 295, 683, 299" alt="Contact" data-toggle="modal" data-target="#modal1"/>
@@ -18,7 +20,7 @@
    		<area shape="poly" coords="443, 220, 498, 223, 496, 294, 486, 319, 482, 380, 446, 370, 445, 279, 432, 279, 427, 253, 446, 250" alt="Contact" data-toggle="modal" data-target="#modal3"/>
 	</map>
 	<div class="accueilnord">
-		<a href="<%= request.getContextPath()%>/" title="fablab">
+		<a href="<%= request.getContextPath()%>/Hall" title="Hall">
 			<img alt="" src="<%= request.getContextPath()%>/IMG/flechenord.png"/>
 		</a>
 	</div>
@@ -100,11 +102,11 @@
   		</div>
 	</div>
 	
-	
-	<div>
+</div>
+	<footer>
 		<h2>Inventaire:</h2>
-	</div>
-	</div>
+	</footer>
+	
 	<script src="https://code.jquery.com/jquery-1.10.2.js" integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="<%= request.getContextPath()%>/JS/responsive.js"></script>
 	<script>
