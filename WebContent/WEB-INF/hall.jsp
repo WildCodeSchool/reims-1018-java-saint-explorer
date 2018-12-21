@@ -16,7 +16,7 @@
 <body>
 <header>
 
-<h1>Saint-Explorer</h1>
+<h1>SAINT-EXplorer</h1>
 
 </header>
 

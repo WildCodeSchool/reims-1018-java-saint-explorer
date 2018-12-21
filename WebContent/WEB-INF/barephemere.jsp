@@ -17,14 +17,14 @@
 
 <header>
 
-<h1>Saint-Explorer</h1>
+<h1>SAINT-EXplorer</h1>
 
 </header>
 	<div class="bloc-page">
 		
 		<img alt="" src="<%= request.getContextPath()%>/IMG/bar.png" usemap="#panneaux">
 		<map name="panneaux" id="panneaux">
-			<area shape="rect" coords="457,377,536,453" href="" alt="Contact" data-toggle="modal" data-target="#modal1"/>
+			<area shape="poly" coords="377, 344, 369, 119, 643, 120, 629, 363, 578, 360, 576, 185, 430, 187, 435, 370, 427, 377, 386, 375 " href="" alt="Contact" data-toggle="modal" data-target="#modal1"/>
 		</map>
 	</div>
 	<div class="accueilsud">
