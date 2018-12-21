@@ -10,7 +10,7 @@
 </head>
 <body>
 	<header>
-		<h1>Saint-Explorer</h1>
+		<h1>SAINT-EXplorer</h1>
 	</header>
 	<div class="bloc-page">
 	<img alt="" src="<%= request.getContextPath()%>/IMG/accueil2.png" usemap="#panneaux">
