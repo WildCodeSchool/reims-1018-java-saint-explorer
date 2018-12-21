@@ -21,8 +21,22 @@
 	<div class="bloc-page">
 		<img alt="" src="<%= request.getContextPath()%>/IMG/labomachine.png" usemap="#panneaux">
 			<map name="panneaux" id="panneaux">
-				<area shape="poly" coords="109, 255, 190, 260, 194, 325, 115, 331" href="<%= request.getContextPath() %>/" alt="Contact"/>
+			
+				<area shape="poly" coords="439, 176, 441, 209, 427, 217, 433, 224, 467, 226, 468, 213, 463, 213, 460, 177" href="" alt="imprim 3D"/>
+				<area shape="poly" coords="565, 230, 560, 287, 574, 302, 585, 302, 594, 280, 603, 212, 583, 211, 584, 228" href="" alt="Decoup Lazer"/>
+				<area shape="poly" coords="636, 256, 609, 261, 652, 286, 672, 293, 682, 278" href="" alt="TriCodeur"/>
+				<area shape="poly" coords="806, 230, 787, 306, 786, 354, 766, 355, 766, 365, 792, 391, 984, 381, 1003, 313, 991, 299, 917, 304, 910, 298, 876, 288, 888, 238" href="" alt="Brodeuse"/>
+				
+
+
 			</map>
+			
+			
+				
+
+			
+			
+			
 <!-- Button trigger modal -->
 		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
 			
