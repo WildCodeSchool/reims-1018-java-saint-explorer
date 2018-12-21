@@ -22,8 +22,8 @@
 		<img alt="" src="<%= request.getContextPath()%>/IMG/artfab.png" usemap="#panneaux">
 		<map name="panneaux" id="panneaux">
 			
-				<area shape="poly" coords="0, 329, 173, 305, 202, 394, 12, 458, 1, 425" href="" alt="Contact" data-toggle="modal" data-target="#modal-vr"/>
-				<area shape="poly" coords="169, 274, 166, 301, 177, 302, 207, 389, 285, 373, 289, 307, 271, 284" href="" alt="Contact" data-toggle="modal" data-target="#modal-pompe"/>
+				<area shape="poly" coords="0, 329, 173, 305, 202, 394, 12, 458, 1, 425" alt="Contact" data-toggle="modal" data-target="#modal-vr"/>
+				<area shape="poly" coords="169, 274, 166, 301, 177, 302, 207, 389, 285, 373, 289, 307, 271, 284" alt="Contact" data-toggle="modal" data-target="#modal-pompe"/>
 				<area shape="poly" coords="263, 238, 267, 264, 304, 265, 303, 237" href="" alt="Contact"/>
 				<area shape="poly" coords="372, 240, 372, 265, 411, 265, 409, 239" href="" alt="Contact"/>
 				<area shape="poly" coords="491, 231, 494, 253, 519, 253, 516, 231" href="" alt="Contact"/>
@@ -35,7 +35,7 @@
 	
 		<!-- Modal -->
 	<div class="modal fade" id="modal-vr" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  		<div class="modal-dialog modal-dialog-centered" role="document">
+  		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
       			<div class="modal-header">
         			<h5 class="modal-title" id="modal-vr">Modal VR</h5>
@@ -44,11 +44,11 @@
        				 </button>
      			</div>
       			<div class="modal-body">
-        			premiere modale
+        			Modal VR
       			</div>
       			<div class="modal-footer">
-       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        		 <button type="button" class="btn btn-primary">Save changes</button>
+       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+
       			</div>
     		</div>
   		</div>
@@ -56,7 +56,7 @@
 	
 	<!-- Modal -->
 	<div class="modal fade" id="modal-pompe" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  		<div class="modal-dialog modal-dialog-centered" role="document">
+  		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
       			<div class="modal-header">
         			<h5 class="modal-title" id="modal-pompe">Pompe</h5>
@@ -65,11 +65,10 @@
        				 </button>
      			</div>
       			<div class="modal-body">
-        			premiere modale
+        			Modal Pompe
       			</div>
       			<div class="modal-footer">
        			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        		 <button type="button" class="btn btn-primary">Save changes</button>
       			</div>
     		</div>
   		</div>
