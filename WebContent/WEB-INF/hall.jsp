@@ -23,9 +23,9 @@
 <div class="bloc-page">
 	<img alt="" src="<%= request.getContextPath()%>/IMG/hall2.png" usemap="#panneaux">
 	<map name="panneaux" id="panneaux">
-   		<area shape="poly" coords="109, 255, 190, 260, 194, 325, 115, 331" alt="Contact" data-toggle="modal" data-target="#modal1"/>
-   		<area shape="poly" coords="274, 160, 284, 319, 323, 314, 317, 174"  alt="Contact" data-toggle="modal" data-target="#modal2"/>
-   		<area shape="poly" coords="449, 217, 448, 306, 488, 299, 483, 240" alt="Contact" data-toggle="modal" data-target="#modal3"/>
+   		<area shape="poly" coords="109, 255, 190, 260, 194, 325, 115, 331" href="" alt="Contact" data-toggle="modal" data-target="#modal1"/>
+   		<area shape="poly" coords="274, 160, 284, 319, 323, 314, 317, 174" href="" alt="Contact" data-toggle="modal" data-target="#modal2"/>
+   		<area shape="poly" coords="449, 217, 448, 306, 488, 299, 483, 240" href="" alt="Contact" data-toggle="modal" data-target="#modal3"/>
 	</map>
 	
 	<div class="accueilnord">
