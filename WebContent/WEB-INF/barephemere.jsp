@@ -21,13 +21,38 @@
 
 </header>
 	<div class="bloc-page">
-
-		<img alt="" src="<%= request.getContextPath()%>/IMG/home.png" usemap="#panneaux">
+		
+		<img alt="" src="<%= request.getContextPath()%>/IMG/bar.png" usemap="#panneaux">
 		<map name="panneaux" id="panneaux">
-			<area shape="rect" coords="457,377,536,453" href="<%= request.getContextPath()%>/accueil" alt="Contact"/>
+			<area shape="rect" coords="457,377,536,453" href="" alt="Contact" data-toggle="modal" data-target="#modal1"/>
 		</map>
 	</div>
+	<div class="accueilsud">
+		<a href="<%= request.getContextPath()%>/accueil" title="Accueil">
+			<img alt="" src="<%= request.getContextPath()%>/IMG/flechesud.png"/>
+		</a>	
+	</div>
 	
+	<!-- Modal -->
+	
+	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+       				 </button>
+     			</div>
+      			<div class="modal-body" >
+        			<video src="<%= request.getContextPath()%>/IMG/bar.mp4" controls width="100%"></video>
+      			</div>
+      			<div class="modal-footer">
+       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
 	<footer>
 	<h2>Inventaire:</h2>
 	</footer>
