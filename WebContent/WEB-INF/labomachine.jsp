@@ -21,7 +21,7 @@
 </header>
 
 	<div class="labomachineouest">
-		<a href="<%= request.getContextPath()%>/Hall" title="labomachine">
+		<a href="<%= request.getContextPath()%>/Hall" title="Hall">
 			<img alt="" src="<%= request.getContextPath()%>/IMG/flecheouest.png"/>
 		</a>	
 	</div>
@@ -49,11 +49,11 @@
        				 </button>
      			</div>
       			<div class="modal-body">
-        			<img alt="" src="<%= request.getContextPath()%>/IMG/imp3d.png" width="100%">
+        			<video src="<%= request.getContextPath()%>/IMG/video_imp_3d.mp4" controls width="100%"></video>
       			</div>
       			<div class="modal-footer">
       			
-       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
       			</div>
     		</div>
   		</div>
@@ -71,11 +71,11 @@
        				 </button>
      			</div>
       			<div class="modal-body">
-        			<img alt="" src="<%= request.getContextPath()%>/IMG/laser.png" width="100%">
+        			<video src="<%= request.getContextPath()%>/IMG/decoupe_laser.mp4" controls width="100%"></video>
       			</div>
       			<div class="modal-footer">
       			
-       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
       			</div>
     		</div>
   		</div>
@@ -96,7 +96,7 @@
       			</div>
       			<div class="modal-footer">
       			    
-       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
       			</div>
     		</div>
   		</div>
@@ -116,7 +116,7 @@
         			<img alt="" src="<%= request.getContextPath()%>/IMG/brodeuse.png" width="100%">
       			</div>
       			<div class="modal-footer">
-       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
       			</div>
     		</div>
   		</div>

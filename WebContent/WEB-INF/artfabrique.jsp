@@ -44,7 +44,7 @@
   		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
       			<div class="modal-header">
-        			<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        			<h5 class="modal-title" id="exampleModalCenterTitle">Réalité virtuelle</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           				<span aria-hidden="true">&times;</span>
        				 </button>
@@ -53,7 +53,7 @@
         			<img alt="" src="<%= request.getContextPath()%>/IMG/vr.png" width="100%"/>
       			</div>
       			<div class="modal-footer">
-       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
       			</div>
     		</div>
   		</div>
@@ -65,7 +65,7 @@
   		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
       			<div class="modal-header">
-        			<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        			<h5 class="modal-title" id="exampleModalCenterTitle">Réalité virtuelle</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           				<span aria-hidden="true">&times;</span>
        				 </button>
@@ -74,7 +74,7 @@
         			<video src="<%= request.getContextPath()%>/IMG/modal2.mp4" controls width="100%"></video>
       			</div>
       			<div class="modal-footer">
-       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
       			</div>
     		</div>
   		</div>
@@ -86,7 +86,7 @@
   		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
       			<div class="modal-header">
-        			<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        			<h5 class="modal-title" id="exampleModalCenterTitle">Pilote ton robot</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           				<span aria-hidden="true">&times;</span>
        				 </button>
@@ -95,7 +95,7 @@
         			<video src="<%= request.getContextPath()%>/IMG/modal3.mp4" controls width="100%"></video>
       			</div>
       			<div class="modal-footer">
-       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
       			</div>
     		</div>
   		</div>
@@ -107,7 +107,7 @@
   		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
       			<div class="modal-header">
-        			<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        			<h5 class="modal-title" id="exampleModalCenterTitle">Rétro gaming: borne d'arcade</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           				<span aria-hidden="true">&times;</span>
        				 </button>
@@ -116,7 +116,7 @@
         			<video src="<%= request.getContextPath()%>/IMG/modal4.mp4" controls width="100%"></video>
       			</div>
       			<div class="modal-footer">
-       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
       			</div>
     		</div>
   		</div>
@@ -128,7 +128,7 @@
   		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
       			<div class="modal-header">
-        			<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        			<h5 class="modal-title" id="exampleModalCenterTitle">Rétro gaming: borne d'arcade</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           				<span aria-hidden="true">&times;</span>
        				 </button>
@@ -137,7 +137,7 @@
         			<video src="<%= request.getContextPath()%>/IMG/modal5.mp4" controls width="100%"></video>
       			</div>
       			<div class="modal-footer">
-       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
       			</div>
     		</div>
   		</div>
