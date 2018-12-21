@@ -12,7 +12,7 @@ body{
 @font-face {
   font-family: 'Cobol';
   font-style: normal;
-  src: url(Cobol.otf);
+  src: url(Cobol-Bold.otf);
 }
 
 header {
