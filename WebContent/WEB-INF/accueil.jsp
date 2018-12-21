@@ -45,7 +45,7 @@
   		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
       			<div class="modal-header">
-        			<h5 class="modal-title" id="exampleModalCenterTitle">Présentation de Saint-Ex</h5>
+        			<h5 class="modal-title" id="exampleModalCenterTitle">Calendrier Saint-Ex</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           				<span aria-hidden="true">&times;</span>
        				 </button>
@@ -67,7 +67,8 @@
   		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
       			<div class="modal-header">
-        			<h5 class="modal-title" id="exampleModalCenterTitle">Salle d'exposition</h5>
+        			<h5 class="modal-title" id="exampleModalCenterTitle">Exposition</h5>
+
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           				<span aria-hidden="true">&times;</span>
        				 </button>
