@@ -33,11 +33,12 @@
 		</a>
 	</div>
 	<div class="accueilouest">
-		<a href="<%= request.getContextPath()%>/" title="labomachine">
+		<a href="<%= request.getContextPath()%>/ArtFabrique" title="ArtFabrique">
 			<img alt="" src="<%= request.getContextPath()%>/IMG/flecheouest.png"/>
 		</a>	
 	</div>
 	<!-- Modal -->
+	
 	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
@@ -58,7 +59,7 @@
     		</div>
   		</div>
 	</div>
-	
+
 	<!-- Modal -->
 	<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">

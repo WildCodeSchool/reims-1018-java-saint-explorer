@@ -67,6 +67,13 @@ h2 {
 	top: 500px;
 	left: 450px;
 }
+.artfrabiquesud{
+	width:100px;
+	height: 100px;
+	position: absolute;
+	top: 700px;
+	left: 1000px;
+}
 .modal-header{
 	background-color: #fc9e3a;	
 }

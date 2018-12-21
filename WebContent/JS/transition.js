@@ -9,7 +9,7 @@ document.body.style.opacity = SomeNumberThing/100;
 function Conflaburator(SomeNumberThing) {
 if (SomeNumberThing <= 100) {
 FluffyKittenMaker(SomeNumberThing);
-SomeNumberThing += 4;
+SomeNumberThing += 8;
 window.setTimeout("Conflaburator("+SomeNumberThing+")", 100);
 }
 } 
