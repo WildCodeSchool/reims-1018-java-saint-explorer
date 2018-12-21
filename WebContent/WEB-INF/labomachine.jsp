@@ -19,6 +19,13 @@
 <h1>Saint-Explorer</h1>
 
 </header>
+
+	<div class="accueilouest">
+		<a href="<%= request.getContextPath()%>/accueil" title="labomachine">
+			<img alt="" src="<%= request.getContextPath()%>/IMG/flecheouest.png"/>
+		</a>	
+	</div>
+	
 	<div class="bloc-page">
 		<img alt="" src="<%= request.getContextPath()%>/IMG/labomachine.png" usemap="#panneaux">
 			<map name="panneaux" id="panneaux">
