@@ -29,15 +29,15 @@
 	</map>
 	
 	<div class="accueilnord">
-		<a href="<%= request.getContextPath()%>/" title="fablab">
+		<a href="<%= request.getContextPath()%>/accueil" title="Accueil">
 			<img alt="" src="<%= request.getContextPath()%>/IMG/flechenord.png"/>
 		</a>
 	</div>
 	
-	<div class="accueilest">
-		<a href="<%= request.getContextPath()%>/" title="bar éphémère">
-			<img alt="" src="<%= request.getContextPath()%>/IMG/flecheest.png"/>
-		</a>
+	<div class="accueilsud">
+		<a href="<%= request.getContextPath()%>/LaboMachine" title="Labo Machine">
+			<img alt="" src="<%= request.getContextPath()%>/IMG/flechesud.png"/>
+		</a>	
 	</div>			
 		
 <!-- Modal -->
@@ -45,7 +45,7 @@
   		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
       			<div class="modal-header">
-        			<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        			<h5 class="modal-title" id="exampleModalCenterTitle">Light Painting</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           				<span aria-hidden="true">&times;</span>
        				 </button>
@@ -65,13 +65,13 @@
   		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
       			<div class="modal-header">
-        			<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        			<h5 class="modal-title" id="exampleModalCenterTitle">Goûter Numérique</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           				<span aria-hidden="true">&times;</span>
        				 </button>
      			</div>
       			<div class="modal-body">
-        			<img src="<%= request.getContextPath()%>/IMG/expo.png" alt="" width="100%"/>
+        			<video src="<%= request.getContextPath()%>/IMG/videogouter.mp4" controls width="100%"></video>
       			</div>
       			<div class="modal-footer">
        			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -85,13 +85,13 @@
   		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
       			<div class="modal-header">
-        			<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        			<h5 class="modal-title" id="exampleModalCenterTitle">REPORT nuitnumérique #15 - ABSURDE</h5>
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           				<span aria-hidden="true">&times;</span>
        				 </button>
      			</div>
       			<div class="modal-body">
-        			<img src="<%= request.getContextPath()%>/IMG/photo.png" alt="" width="100%"/>
+        			<video src="<%= request.getContextPath()%>/IMG/videoreportage.mp4" controls width="100%"></video>
       			</div>
       			<div class="modal-footer">
        			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -99,6 +99,7 @@
     		</div>
   		</div>
 	</div>
+</div>
 	
 	<footer>
 	<h2>Inventaire:</h2>
