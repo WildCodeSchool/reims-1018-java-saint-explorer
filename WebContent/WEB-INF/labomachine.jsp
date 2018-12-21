@@ -127,7 +127,17 @@
 		
 	
 	<footer>
-	<h2>Inventaire:</h2>
+<div class="container">
+		<div class="row">
+			<div class="col-6 text-center">
+		<a href="http://www.saintex-reims.com/">Saint-Ex Reims</a>
+			</div>
+			<div class="col-6 text-center">
+		<a href="https://wildcodeschool.fr/reims/">Wild Code School</a>
+			</div>
+		</div>
+	</div>
+	
 	</footer>
 	<script src="https://code.jquery.com/jquery-1.10.2.js" integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="<%= request.getContextPath()%>/JS/responsive.js"></script>
