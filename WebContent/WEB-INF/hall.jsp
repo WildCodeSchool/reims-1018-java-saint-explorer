@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>LaboMachine</title>
+<title>Hall</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
  <link rel="stylesheet" href="<%=request.getContextPath()%>/CSS/test.css">
 </head>
@@ -20,14 +20,12 @@
 
 </header>
 	<div class="bloc-page">
-		<img alt="" src="<%= request.getContextPath()%>/IMG/labomachine.png" usemap="#panneaux">
+		<img alt="" src="<%= request.getContextPath()%>/IMG/hall2.png" usemap="#panneaux">
 			<map name="panneaux" id="panneaux">
 			
-				<area shape="poly" coords="439, 176, 441, 209, 427, 217, 433, 224, 467, 226, 468, 213, 463, 213, 460, 177" alt="Imprimante 3D" data-toggle="modal" data-target="#exampleModalCenter"/>
-				<area shape="poly" coords="565, 230, 560, 287, 574, 302, 585, 302, 594, 280, 603, 212, 583, 211, 584, 228" href="" alt="Decoup Lazer"/>
-				<area shape="poly" coords="636, 256, 609, 261, 652, 286, 672, 293, 682, 278" href="" alt="TriCodeur"/>
-				<area shape="poly" coords="806, 230, 787, 306, 786, 354, 766, 355, 766, 365, 792, 391, 984, 381, 1003, 313, 991, 299, 917, 304, 910, 298, 876, 288, 888, 238" href="" alt="Brodeuse"/>
-				
+				<area shape="poly" coords="109, 255, 190, 260, 194, 325, 115, 331" alt="Imgage gauche" data-toggle="modal" data-target="#exampleModalCenter"/>
+				<area shape="poly" coords="274, 160, 284, 319, 323, 314, 317, 174" href="" alt="Image milieu"/>
+				<area shape="poly" coords="449, 217, 448, 306, 488, 299, 483, 240" href="" alt="Image droite"/>
 			</map>
 
 			
