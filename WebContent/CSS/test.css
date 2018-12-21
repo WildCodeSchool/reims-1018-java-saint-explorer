@@ -39,6 +39,41 @@ h2 {
 	text-align: left;
 	
 }
+.accueilnord{
+	width:100px;
+	height: 100px;
+	position: absolute;
+	top: 350px;
+	left: 690px;
+}
+.accueilsud{
+	width:100px;
+	height: 100px;
+	position: absolute;
+	top: 650px;
+	left: 850px;
+}
+.accueilest{
+	width:100px;
+	height: 100px;
+	position: absolute;
+	top: 350px;
+	left: 1250px;
+}
+.accueilouest{
+	width:100px;
+	height: 100px;
+	position: absolute;
+	top: 500px;
+	left: 450px;
+}
+.modal-header{
+	background-color: #fc9e3a;	
+}
+
+.modal-footer{
+	background-color: #005f82;	
+}
 
 img[usemap] {
 
