@@ -15,12 +15,9 @@
 <body>
 	<div class="bloc-page">
 		<h1>Saint-Explorer</h1>
-		<img alt="" src="<%= request.getContextPath()%>/IMG/${room.url}.png" usemap="#panneaux">
+		<img alt="" src="<%= request.getContextPath()%>/IMG/home.png" usemap="#panneaux">
 		<map name="panneaux" id="panneaux">
-			
-			<c:forEach items="${room.areas}" var="area">
-				<area shape="${area.shape}" coords="${area.coords}" href="<%= request.getContextPath() %>/?id=${area.href}" alt="Contact"/>
-			</c:forEach>
+			<area shape="rect" coords="457,377,536,453" href="<%= request.getContextPath()%>/accueil" alt="Contact"/>
 		</map>
 		<div>
 			<h2>Inventaire:</h2>

@@ -32,19 +32,6 @@ public class Home extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		var rooms = new Roomlist();
-		String param = request.getParameter("id");
-		Room room;
-		
-		if(param == null) {
-			room = rooms.getRoom(0);
-			
-		} else {
-			room = rooms.getRoom(Integer.valueOf(param));
-		}
-		
-		request.setAttribute("room", room);
-		
 	
 		this.getServletContext().getRequestDispatcher("/WEB-INF/home.jsp").forward(request, response);
 
