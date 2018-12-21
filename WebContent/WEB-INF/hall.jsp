@@ -19,19 +19,50 @@
 <h1>Saint-Explorer</h1>
 
 </header>
-	<div class="bloc-page">
-		<img alt="" src="<%= request.getContextPath()%>/IMG/hall2.png" usemap="#panneaux">
-			<map name="panneaux" id="panneaux">
-			
-				<area shape="poly" coords="109, 255, 190, 260, 194, 325, 115, 331" alt="Imgage gauche" data-toggle="modal" data-target="#exampleModalCenter"/>
-				<area shape="poly" coords="274, 160, 284, 319, 323, 314, 317, 174" href="" alt="Image milieu"/>
-				<area shape="poly" coords="449, 217, 448, 306, 488, 299, 483, 240" href="" alt="Image droite"/>
-			</map>
 
-			
-			<!-- Modal -->
-	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  		<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="bloc-page">
+	<img alt="" src="<%= request.getContextPath()%>/IMG/hall2.png" usemap="#panneaux">
+	<map name="panneaux" id="panneaux">
+   		<area shape="poly" coords="109, 255, 190, 260, 194, 325, 115, 331" alt="Contact" data-toggle="modal" data-target="#modal1"/>
+   		<area shape="poly" coords="274, 160, 284, 319, 323, 314, 317, 174"  alt="Contact" data-toggle="modal" data-target="#modal2"/>
+   		<area shape="poly" coords="449, 217, 448, 306, 488, 299, 483, 240" alt="Contact" data-toggle="modal" data-target="#modal3"/>
+	</map>
+	
+	<div class="accueilnord">
+		<a href="<%= request.getContextPath()%>/" title="fablab">
+			<img alt="" src="<%= request.getContextPath()%>/IMG/flechenord.png"/>
+		</a>
+	</div>
+	
+	<div class="accueilest">
+		<a href="<%= request.getContextPath()%>/" title="bar éphémère">
+			<img alt="" src="<%= request.getContextPath()%>/IMG/flecheest.png"/>
+		</a>
+	</div>			
+		
+<!-- Modal -->
+	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+       				 </button>
+     			</div>
+      			<div class="modal-body" >
+        			<video src="<%= request.getContextPath()%>/IMG/videoplayback.mp4" controls width="100%"></video>
+      			</div>
+      			<div class="modal-footer">
+       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+	
+	<!-- Modal -->
+	<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     		<div class="modal-content">
       			<div class="modal-header">
         			<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
@@ -40,53 +71,33 @@
        				 </button>
      			</div>
       			<div class="modal-body">
-        			premiere modale
+        			<img src="<%= request.getContextPath()%>/IMG/expo.png" alt="" width="100%"/>
       			</div>
       			<div class="modal-footer">
        			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        		 <button type="button" class="btn btn-primary">Save changes</button>
       			</div>
     		</div>
   		</div>
 	</div>
 	
-	
-<div>
-			
-			
-				
-
-			
-			
-			
-<!-- Button trigger modal -->
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-			
-		</button>
-			
-  Launch demo modal
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-      </div>
-    </div>
-  </div>
-</div>
-
+	<!-- Modal -->
+	<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+       				 </button>
+     			</div>
+      			<div class="modal-body">
+        			<img src="<%= request.getContextPath()%>/IMG/photo.png" alt="" width="100%"/>
+      			</div>
+      			<div class="modal-footer">
+       			 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
 	</div>
 	
 	<footer>
