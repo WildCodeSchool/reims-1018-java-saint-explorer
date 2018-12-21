@@ -15,9 +15,9 @@
 	<div class="bloc-page">
 	<img alt="" src="<%= request.getContextPath()%>/IMG/accueil2.png" usemap="#panneaux">
 	<map name="panneaux" id="panneaux">
-   		<area shape="poly" coords="676, 390, 560, 413, 487, 381, 489, 322, 505, 295, 683, 299" alt="Contact" data-toggle="modal" data-target="#modal1"/>
-   		<area shape="poly" coords="550, 157, 657, 178, 648, 295, 547, 292"  alt="Contact" data-toggle="modal" data-target="#modal2"/>
-   		<area shape="poly" coords="443, 220, 498, 223, 496, 294, 486, 319, 482, 380, 446, 370, 445, 279, 432, 279, 427, 253, 446, 250" alt="Contact" data-toggle="modal" data-target="#modal3"/>
+   		<area shape="poly" coords="676, 390, 560, 413, 487, 381, 489, 322, 505, 295, 683, 299" href="" alt="Contact" data-toggle="modal" data-target="#modal1"/>
+   		<area shape="poly" coords="550, 157, 657, 178, 648, 295, 547, 292"  href="" alt="Contact" data-toggle="modal" data-target="#modal2"/>
+   		<area shape="poly" coords="443, 220, 498, 223, 496, 294, 486, 319, 482, 380, 446, 370, 445, 279, 432, 279, 427, 253, 446, 250" href="" alt="Contact" data-toggle="modal" data-target="#modal3"/>
 	</map>
 	<div class="accueilnord">
 		<a href="<%= request.getContextPath()%>/Hall" title="Hall">
@@ -30,7 +30,7 @@
 		</a>	
 	</div>
 	<div class="accueilest">
-		<a href="<%= request.getContextPath()%>/" title="bar éphémère">
+		<a href="<%= request.getContextPath()%>/Barephemere" title="bar éphémère">
 			<img alt="" src="<%= request.getContextPath()%>/IMG/flecheest.png"/>
 		</a>
 	</div>

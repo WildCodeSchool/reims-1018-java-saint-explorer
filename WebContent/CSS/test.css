@@ -81,6 +81,20 @@ h2 {
 	top: 400px;
 	left: 450px;
 }
+.hallnord{
+	width:100px;
+	height: 100px;
+	position: absolute;
+	top: 450px;
+	left: 910px;
+}
+.hallsud{
+	width:100px;
+	height: 100px;
+	position: absolute;
+	top: 550px;
+	left: 1250px;
+}
 .modal-header{
 	background-color: #fc9e3a;	
 }

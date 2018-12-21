@@ -28,13 +28,13 @@
    		<area shape="poly" coords="449, 217, 448, 306, 488, 299, 483, 240" href="" alt="Contact" data-toggle="modal" data-target="#modal3"/>
 	</map>
 	
-	<div class="accueilnord">
+	<div class="hallnord">
 		<a href="<%= request.getContextPath()%>/accueil" title="Accueil">
 			<img alt="" src="<%= request.getContextPath()%>/IMG/flechenord.png"/>
 		</a>
 	</div>
 	
-	<div class="accueilsud">
+	<div class="hallsud">
 		<a href="<%= request.getContextPath()%>/LaboMachine" title="Labo Machine">
 			<img alt="" src="<%= request.getContextPath()%>/IMG/flechesud.png"/>
 		</a>	
