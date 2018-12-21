@@ -74,6 +74,13 @@ h2 {
 	top: 700px;
 	left: 1000px;
 }
+.labomachineouest{
+	width:100px;
+	height: 100px;
+	position: absolute;
+	top: 400px;
+	left: 450px;
+}
 .modal-header{
 	background-color: #fc9e3a;	
 }
