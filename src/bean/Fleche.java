@@ -1,31 +1,22 @@
 package bean;
 
 public class Fleche {
-	private String top;
-	private String left;
+	private String arg;
 	private String url;
 	
-	public Fleche(String top, String left, String url) {
+	public Fleche(String arg, String url) {
 	
-		this.top = top;
-		this.left = left;
+		this.arg = arg;
 		this.url = url;
 	}
 
-	public String getTop() {
-		return top;
+	
+	public String getArg() {
+		return arg;
 	}
 
-	public void setTop(String top) {
-		this.top = top;
-	}
-
-	public String getLeft() {
-		return left;
-	}
-
-	public void setLeft(String left) {
-		this.left = left;
+	public void setArg(String arg) {
+		this.arg = arg;
 	}
 
 	public String getUrl() {

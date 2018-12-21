@@ -14,7 +14,26 @@ body{
   font-style: normal;
   src: url(Cobol.otf);
 }
-
+.accueilnord{
+	position: absolute;
+	top: 400px;
+	left: 750px;
+}
+.accueilsud{
+	position: absolute;
+	top: 700px;
+	left: 800px;
+}
+.accueilest{
+	position: absolute;
+	top: 500px;
+	left: 1300px;
+}
+.accueilouest{
+	position: absolute;
+	top: 600px;
+	left: 500px;
+}
 header {
   	background-color: #005F82;
   	height: 10vh;

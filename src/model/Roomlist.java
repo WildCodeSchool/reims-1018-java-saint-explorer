@@ -25,14 +25,14 @@ public class Roomlist {
 		areas2.add(area4);
 		
 		ArrayList<Fleche> fleches2 = new ArrayList<Fleche>();
-		Fleche fleche1 = new Fleche("50px", "50px", "flechenord");
-		Fleche fleche2 = new Fleche("100px", "100px", "flechenord");
-		Fleche fleche3 = new Fleche("150px", "150px", "flechenord");
-		Fleche fleche4 = new Fleche("200px", "200px", "flechenord");
+		Fleche fleche1 = new Fleche("accueilnord", "flechenord.png");
+		Fleche fleche2 = new Fleche("accueilsud", "flechesud.png");
+		Fleche fleche3 = new Fleche("accueilest", "flecheest.png");
+		Fleche fleche4 = new Fleche("accueilouest", "flecheouest.png");
 		fleches2.add(fleche1);
-		fleches2.add(fleche1);
-		fleches2.add(fleche1);
-		fleches2.add(fleche1);
+		fleches2.add(fleche2);
+		fleches2.add(fleche3);
+		fleches2.add(fleche4);
 		
 		ArrayList<Area> areas3 = new ArrayList<Area>();
 		Area area5 = new Area("poly", "0, 329, 173, 305, 202, 394, 12, 458, 1, 425", "5");
@@ -53,7 +53,7 @@ public class Roomlist {
 		areas3.add(area12);
 		
 		ArrayList<Fleche> fleches3 = new ArrayList<Fleche>();
-		Fleche fleche5 = new Fleche("50px", "50px", "flechenord");
+		Fleche fleche5 = new Fleche("accueilnord", "flechenord.png");
 		fleches3.add(fleche5);
 		
 		ArrayList<Area> areas4 = new ArrayList<Area>();
@@ -65,8 +65,8 @@ public class Roomlist {
 		areas4.add(area15);
 		
 		ArrayList<Fleche> fleches4 = new ArrayList<Fleche>();
-		Fleche fleche6 = new Fleche("50px", "50px", "flechenord");
-		Fleche fleche7 = new Fleche("100px", "100px", "flechenord");
+		Fleche fleche6 = new Fleche("accueilnord", "flechenord.png");
+		Fleche fleche7 = new Fleche("accueilnord", "flechenord.png");
 		fleches4.add(fleche6);
 		fleches4.add(fleche7);
 		
@@ -81,7 +81,7 @@ public class Roomlist {
 		areas5.add(area19);
 		
 		ArrayList<Fleche> fleches5 = new ArrayList<Fleche>();
-		Fleche fleche8 = new Fleche("50px", "50px", "flechenord");
+		Fleche fleche8 = new Fleche("accueilnord", "flechenord.png");
 		fleches5.add(fleche8);
 		
 		rooms = new ArrayList<Room>();
